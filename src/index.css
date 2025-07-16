@@ -1,0 +1,56 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Playfair Display", serif;
+}
+
+.noteItem {
+  padding: 10px;
+  background-color: #fff;
+  margin: 10px 0px;
+  font-size: 28px;
+  display: flex;
+  flex-wrap: wrap;
+
+  span {
+    margin: 0 5px;
+  }
+
+  button {
+    margin-left: 15px;
+    margin-right: 10px;
+    padding: 8px 15px;
+    font-size: 18px;
+    background-color: #000;
+    color: #fff;
+  }
+
+  input {
+    padding: 5px;
+  }
+}
+
+@media (max-width: 640px) {
+  .noteText {
+    display: block;
+    width: 100% !important;
+  }
+
+  .buttonDiv {
+    margin-top: 20px;
+  }
+}
