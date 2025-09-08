@@ -29,5 +29,17 @@ form {
   form {
     flex-direction: column;
     gap: 20px;
+
+    input {
+      width: 50%;
+    }
+  }
+}
+
+@media (max-width: 400px) {
+  form {
+    input {
+      width: 80%;
+    }
   }
 }
